@@ -21,12 +21,12 @@ All code contributors need to sign the CLA.  Under no circumstances can an AI ag
 The directory structure is as follows:
 
 ```
-bin/ - generic ancillary generation applications.
-docs/ - static documentation and documentation configuration.
-lib/ugants/ - library code for generating UGrid ancillaries.
-lib/ugants/tests/ - unit tests for the library code.
+bin/ - generic ancillary generation applications in python.
+docs/ - static documentation and documentation configuration in rst.
+lib/ugants/ - library code for generating UGrid ancillaries in python.
+lib/ugants/tests/ - unit tests for the library code in python following pytest style.
 rose-stem/ - cylc workflow for end to end testing.
-utils/ - infrastructure for the end to end testing.
+utils/ - infrastructure for the end to end testing in python.
 ```
 
 
